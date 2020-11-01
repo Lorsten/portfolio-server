@@ -10,7 +10,7 @@
 
 * index.php/website for the website table
 
-### Each route allow POST,DELTE,PUT and GET. There's also a fourth route index.php/authenticate which only allows POST and is used for authenticating a userlogin
+### Each route allow POST, DELETE, PUT and GET. There's also a fourth route index.php/authenticate which only allows POST and is used for authenticating a userlogin
 
 ### To create a new account use the method createUser in the Auth class the method takes two params, username and password.
 
