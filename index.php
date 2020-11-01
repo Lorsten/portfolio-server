@@ -1,12 +1,12 @@
 <?php
-/*
-header("Access-Control-Allow-Origin: *");
 
+header("Access-Control-Allow-Origin: http://studenter.miun.se/~olan1700");
 
+header('Content-Type: application/json');
 header("Access-Control-Allow-Methods: OPTIONS,GET,POST,PUT,DELETE");
 header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
-*/
+
 include_once('config.php');
 include_once('Router.php');
 include_once('RequestClass.php');
