@@ -12,7 +12,7 @@
 
 ### Each route allow POST, DELETE, PUT and GET. There's also a fourth route index.php/authenticate which only allows POST and is used for authenticating a userlogin
 
-### To create a new account use the method createUser in the Auth class the method takes two params, username and password.
+### To create a new account make an instance of the class Auth and call the the method createUser. The method takes two params, username and password.
 
 ### To use the server change the database account details in the config.php file
 
